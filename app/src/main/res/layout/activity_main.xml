@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.th.samsen.tunyaporn.sudoku.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:padding="40dp"
+        android:gravity="center">
+
+        <TextView
+            android:text="@string/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textColor="@color/text_color"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/h1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/continue_button"
+            tools:text="@string/continue_label"
+            android:textColor="@color/text_color" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_game_button"
+            tools:text="@string/new_game_label"
+            android:textColor="@color/text_color" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_button"
+            tools:text="@string/about_label"
+            android:textColor="@color/text_color" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/exit_button"
+            tools:text="@string/exit_label"
+            android:textColor="@color/text_color" />
+    </LinearLayout>
+</RelativeLayout>
